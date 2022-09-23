@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu cadastro</title>
+    <link rel="stylesheet" href="arquivo.css">
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif
+        }
+        .cabeca{
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 35px;
+            margin-bottom: 0px;
+            margin-left: 8%;
+            margin-top: 25px;
+        }
+        #final_pag{
+            color: black;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            text-decoration: overline underline;
+        }
+        a:hover{
+            cursor: pointer;
+        }
+        header{
+            background-color: red;
+            height: 80px;
+            border: solid 2px red;
+            margin: -8px;
+        }
+        #cadastro{
+            background-color: white;
+            color:slategrey;
+            width: 500px;
+            margin: auto;
+            padding: 0px;
+            margin-top: 100px;
+            text-align: center;     
+        }
+        #div_all{
+            background-color: white;
+            width: 500px;
+            margin: auto;
+            margin-left: 36%;
+        }
+        #nome{
+            width: 300px;
+            height: 30px;
+            border-radius: 10px;
+        }
+        #date{
+            width: 100px;
+            height: 30px;
+            border-radius: 10px;
+            font-size: 13px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        #CPF{
+            width: 135px;
+            height: 30px;
+            border-radius: 10px;
+        }
+        label.sim{
+            color:red;
+        }
+        #tel{
+            width: 135px;
+            height: 30px;
+            border-radius: 10px;
+        }
+        #box:hover{
+            cursor: pointer;
+        }
+        #email{
+            width: 200px;
+            height: 30px; 
+            border-radius: 10px;    
+        }
+        #senha{
+            width: 200px;
+            height: 30px;
+            border-radius: 10px;
+        }
+        #botao{
+            color: white;
+            background-color: red;
+            margin-left: 23%;
+            width: 200px;
+            height: 50px;
+            border-radius: 3px;
+            border: solid 1px red;
+            font-size: 17px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif
+        }
+        #botao:hover{
+            cursor: pointer;
+            background-color:silver;
+        }
+    </style>   
+</head>
+<body>
+    <div>
+        <header>
+            <h1 class="cabeca"><a href="https://www.americanas.com.br/" target="_blank">americanas</a></h1>
+        </header>
+    </div>
+    <div id="cadastro">
+            <h1> Criar seu cadastro </h1>
+            <h3>veja seus pedidos de forma fácil, compre mais rápido e tenha uma experiência personalizada :)</h3>
+            <h5>*campos obrigatórios</h5> 
+    </div>
+    
+    <section id="section_all">
+    <form action="" method="post">
+        <div id="div_all">
+                <label class="sim">*</label><label>Nome Completo</label><br>
+                <input type="text" name="nome" id="nome"> <br><br>
+                <label class="sim">*</label><label>Gênero</label>
+                <span><p>Pra gente te conhecer um pouquinho melhor :)</p></span>
+                <input type="radio" name="masculino" id="sexo">masculino
+                <input type="radio" name="masculino" id="">feminino
+                <input type="radio" name="masculino" id="">não informar <br><br>
+                <label class="sim">*</label><label>Data de Nascimento</label>
+                <p>necessário pra identificar a maioridade, no formato DD/MM/AAAA</p>
+                <input type="date" name="data" id="date" maxlength="10"> <br><br>
+                <label class="sim">*</label><label>CPF</label><br>
+                <p>necessário pra emissão das Notas Fiscais</p>
+                <input type="number" name="cpf" id="CPF" placeholder="  ___.___.___-__"> <br><br>
+                <label class="sim">*</label><label>Telefone</label><br>
+                <p>caso a gente precise entrar em contato sobre seus pedidos</p>
+                <input type="tel" name="telefone" id="tel" placeholder="  (__) _____-____"> <br>
+                <input type="checkbox" name="cb" id="box"> <label>receber notificações por whatsapp</label> <br><br>
+                <label class="sim">*</label><label>email</label> <br>
+                <input type="email" name="email" id="email"> <br>
+                <input type="checkbox" name="cb_1" id="box"> <label>receber emails promocionais</label> <br><br>
+                <label class="sim">*</label><label>senha</label> <br>
+                <p>precisa ter entre 6 e 20 caracteres</p>
+                <input type="password" name="senha" id="senha"> <br><br>
+                <input type="checkbox" name="cb_2" id="box"><label>compartilhar meus dados com parceiros para ter conteúdos personalizados, veja</label></p> <br>
+                <input type="submit" value="criar seu cadastro" id="botao"> <br><br>
+                <p class="final">Não se preocupe, nosso site é seguro! Ao criar o seu cadastro, você concorda com a nossa <a id="final_pag" href="https://www.americanas.com.br/hotsite/politica-de-privacidade" target="_blank">Política de privacidade</a></p>
+                <p class="final">Já tem cadastro ? <a id="final_pag" href="https://cliente.americanas.com.br/simple-login/" target="_blank" >entrar</a></p>         
+        </div>
+    </form>
+    </section>
+</body>
+</html>
