@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lista de tarefas</title>
+</head>
+
+<body>
+    <section>
+        <h1 class="tituloPrincipal">Lista de Tarefas</h1>
+        <div class="adicionar">
+            <input type="text" name="tarefa" id="tarefa" placeholder="Digite sua tarefa" required> 
+            <div>
+                <button onclick="criarTarefa()" id="btn" type="submit">Adcionar Tarefa</button>
+            </div>
+        </div>
+        <div>
+            <ul id="ul">
+            </ul>
+        </div>
+        <div id="tarefas"></div>
+    </section>
+    <script src="arquivo.js"></script>
+</body>
+
+</html>
