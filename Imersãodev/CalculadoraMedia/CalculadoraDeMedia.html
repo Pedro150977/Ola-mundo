@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Média</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="arquivo.css">
+    <script src="arquivo.js"></script>
+</head>
+
+<body>
+    <form onsubmit="calcular(event)">
+        <div class="container">
+            <h1 class="page-title">
+                Calculadora de média</h1>
+            <p class="page-subtitle">
+                Descubra qual a sua média de todos os bimestres!
+            </p>
+            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
+                class="page-logo" alt=""> <br><br>
+            <label id="unico">Nome</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required id='nome'>
+            <label>Nota 1</label>
+            <input type="number" placeholder="Nota do primeiro bimestre" min="1" step="1" required id="nota1">
+            <label>Nota 2</label>
+            <input type="number" placeholder="Nota do segundo bimestre" min="1" step="1" required id="nota2">
+            <label>Nota 3</label>
+            <input type="number" placeholder="Nota do terceiro bimestre" min="1" step="1" required id="nota3">
+            <label>Nota 4</label>
+            <input type="number" placeholder="Nota do quarto bimestre" min="1" step="1" required id="nota4">
+            <input type="submit" value="Calcular" id="botao">
+            <h2 id="final"></h2>
+        </div>
+    </form>
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+</body>
+
+</html>
