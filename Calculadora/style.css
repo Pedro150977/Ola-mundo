@@ -25,15 +25,17 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    width: 240px;
-    height: 450px;
-    padding: 20px;
+    width: 250px;
+    height: 400px;
+    padding: 10px;
     background-color: #50797a;
-    border-radius: 6px;
-    margin: 40px 90px;
+    border-radius: 10px;
+    margin: 40px 60px;
 }
 
 .number {
+    width: 40px;
+    height: 50px;
     border-radius: 10px;
     font-size: 28px;
     background-color: #a5afac;
@@ -44,6 +46,10 @@ h1 {
     line-height: 25px;
 }
 
+.number:hover {
+    background-color: #a5afac20;
+}
+
 section {
     /*background-color: #395b64;*/
     border-radius: 6px;
@@ -52,19 +58,40 @@ section {
     height: 100vh;
 }
 
-#clear {
-    width: 200px;
+#clean {
+    width: 90px;
+}
+
+#back {
+    width: 90px;
 }
 
 #result {
-    width: 200px;
+    width: 190px;
 }
 
 #zero {
-    width: 105px;
+    width: 90px;
 }
 
 #display{
     border-radius: 10px;
     border: 2px solid black;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#resultado {
+    width: 190px;
+    height: 45px;
+    background-color: white;
+    border: solid 2px black;
+    border-radius: 6px;
+    text-align: end;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 0px 5px;
 }
