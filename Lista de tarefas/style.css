@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Hind+Siliguri:wght@300&family=Roboto:wght@400;700&display=swap);
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +9,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: Roboto, sans-serif;
 }
 section{
     display: flex;
