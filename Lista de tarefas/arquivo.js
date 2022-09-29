@@ -16,8 +16,8 @@ function criarTarefa() {
     li.addEventListener('click', tarefaConcluida);
 
     var dBtn = document.createElement("button");
-    dBtn.appendChild(document.createTextNode("X"));
-    li.appendChild(dBtn);
+    dBtn.appendChild(document.createTextNode("X")); // a função createTextNode cria o texto X, assim como na linha 11
+    li.appendChild(dBtn); // a funçaõ appendChild adiciona a variável btn a variável li, assim como nas linhas 8 e 9.
     dBtn.addEventListener("click", deleteListItem);
 
     function deleteListItem() {
