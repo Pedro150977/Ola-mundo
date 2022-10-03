@@ -10,3 +10,7 @@
  * Clone da tela de login e cadastro das lojas americanas
  * Projetos da imersãoDev
  * Portfólio
+
+---
+
+[Link para o meu LinkedIn](https://www.linkedin.com/in/pedro-victor-gouveia-61b751183/)
