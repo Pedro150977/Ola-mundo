@@ -1,6 +1,6 @@
 # Olá, Mundo !
 
- ## Meu primeiro repositório.
+ ## Meu primeiro repositório 😁
 
  __Nesse repositório tenho meus projetos que fiz para praticar como:__
  
