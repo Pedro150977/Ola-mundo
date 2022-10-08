@@ -2,7 +2,7 @@
 
 ---
 
-* [x ] Criar o layout da página 
+* [ ] Criar o layout da página 
 * [ ] Criar o botão para deixar em negrito
 * [ ] Criar o botão para deixar em itálico
 * [ ] Criar o botão para deixar em sublinhado
