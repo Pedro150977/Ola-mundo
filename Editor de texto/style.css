@@ -30,6 +30,7 @@ body{
     height: 50px;
     margin: 0 5px;
     font-weight: bold;
+    cursor: pointer;
 }
 #texto{
     display: flex;
@@ -43,4 +44,16 @@ body{
     background-color: #ece0d0;
     resize: none;
     padding: 10px;
+}
+.negrito{
+    font-weight: bold;
+}
+.italico{
+    font-style: italic;
+}
+.sublinhado{
+    text-decoration: underline;
+}
+.grifado{
+    background-color: yellow;
 }

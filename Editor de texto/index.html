@@ -12,19 +12,24 @@
 <body>
     <section>
         <div id="btn">
-            <button class="button">Negrito</button>
-            <button class="button">Itálico</button>
-            <button class="button">Sublinhado</button>
-            <button class="button">Grifado</button>
-            <button class="button">Cor da fonte</button>
-            <button class="button">Tamanho da fonte</button>
-            <button class="button">Estilo da fonte</button>
-            <button class="button">Direção do texto</button>
+            <button onclick="Negrito()" id="negrito" class="button">Negrito</button>
+            <button onclick="Italico()" id="italico" class="button">Itálico</button>
+            <button onclick="Sublinhado()" id="sublinhado" class="button">Sublinhado</button>
+            <button onclick="Grifado()" id="grifado" class="button">Grifado</button>
+            <button id="corfonte" class="button">Cor da fonte</button>
+            <button id="tamanhofonte" class="button">Tamanho da fonte</button>
+            <button id="estilofonte" class="button">Estilo da fonte</button>
+            <button id="direcaotexto" class="button">Direção do texto</button>
         </div>
-        <div>
+        <div id="segundo">
             <textarea name="texto" id="texto" cols="30" rows="10"></textarea>
         </div>
+        <div>
+            <p><mark></mark></p>
+        </div>
     </section>
+
+    <script src="arquivo.js"></script>
 </body>
 
 </html>
